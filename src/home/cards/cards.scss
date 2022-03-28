@@ -1,0 +1,24 @@
+img{
+    width: 25px;
+}
+.table{
+    padding:30px 20px;
+    display: flex;
+    .a{
+        padding:35px 50px;
+        box-shadow: 2px 2px 4px 1px rgba(20, 18, 53, 0.966);
+
+        border-radius: 10px;
+        background-color: #0C0E29;
+        padding-top: 10px;
+        .tableCell{
+            color:rgb(96, 97, 202);
+            font-size:1rem;
+            letter-spacing: .6px;
+        }
+        .tableRaw{
+            color: rgb(255, 255, 255);
+        }
+    }
+    
+}

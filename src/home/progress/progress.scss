@@ -1,0 +1,21 @@
+.progress{
+    flex:5;
+    border-radius: 15px;
+    background: rgb(12,14,41);
+    background: linear-gradient(90deg, rgba(12,14,41,1) 0%, rgb(16, 16, 53) 47%, rgb(12, 12, 61) 100%);
+    box-shadow: 2px 2px 4px 2px rgba(20, 18, 53, 0.966);
+    min-height: 56vh;
+    padding:30px;
+    padding-top:5px;
+    h1{
+        margin: 10px 0;
+        color:White;
+        letter-spacing: 1px;
+        text-align: center;
+        color:rgb(96, 97, 202)
+    }
+    hr{
+        height:0px;
+        border:0.5px solid rgb(96, 97, 202);
+    }
+}

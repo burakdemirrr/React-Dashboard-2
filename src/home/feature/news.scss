@@ -1,0 +1,20 @@
+.news{
+    display: flex;
+    margin-top:30px;
+    .icn{
+        font-size:1.4rem;
+    }
+    .news__right{
+        display: flex;
+        flex-direction: column;
+        margin-left:20px;
+        h3{
+            font-size: 1rem;
+            color:white !important;
+        }
+        p{
+            color:rgb(184, 172, 172);
+            font-size:.8rem;
+        }
+    }
+}

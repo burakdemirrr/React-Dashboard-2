@@ -1,0 +1,20 @@
+.chart{
+    flex:6;
+    padding:10px;
+    color:rgb(96, 97, 202);
+    background-color: #0C0E29;
+    box-shadow: 2px 2px 4px 1px rgba(20, 18, 53, 0.966);
+
+
+    margin:20px;
+    border-radius: 13px;
+    .title{
+        margin: 15px 0 ;
+        font-size:1.4rem;
+        display: flex;
+        justify-content: center;
+    }
+    .areac{
+        color:white;
+    }
+}

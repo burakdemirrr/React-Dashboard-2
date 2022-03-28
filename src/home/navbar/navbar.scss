@@ -1,0 +1,85 @@
+.navbar{
+    height: 59px;
+    border-bottom:2px solid rgb(60, 67, 107)!important ;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    .wrapper{
+        width: 100%;
+        padding:20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .search{
+            display: flex;
+            align-items: center;    
+            padding:6px 18px;
+            border-radius: 50px;
+            border:none;
+            box-shadow: 2px 2px 4px 1px rgba(20, 18, 53, 0.966);
+            background-color: rgb(34, 36, 73);
+           
+            input{
+                border:none;
+                outline: none;
+                background-color: transparent;
+                color:rgb(252, 252, 252);
+                &::placeholder{
+                    font-size:14px;
+                    letter-spacing:.3px;
+                    color:rgb(223, 223, 224);
+                }
+            }
+        
+        }
+        
+    }
+    
+    .items{
+        display: flex;
+        align-items: center;
+        .item{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin-right: 25px;
+            position: relative;
+            .icon{
+                font-size: 20px;
+            }
+        }
+        .avatar{
+            width:30px;
+            height:30px;
+            border-radius: 50%;
+        }
+
+        .avatarr{
+            width:50px;
+            border-radius: 50%;
+            object-fit: contain;
+        }
+       .counter{
+           width:15px;
+           height: 15px;
+           background-color: red;
+           border-radius: 50%;
+           color:White;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-size: 10px;
+           font-weight: bold;
+           position: absolute;
+           top:-5px;
+           right:-5px;
+        } 
+    }
+}
+.avatarr{
+    width:40px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 5px;
+}

@@ -1,0 +1,22 @@
+.home{
+    display: flex;
+    background-color: #1b1433;
+    position: relative;
+
+    .home-container{
+        background-color: #1b1433;
+        flex:6;
+        .widgets{
+            gap:20px;
+            display: flex;
+            padding:20px;
+        }
+     
+        .feature{
+            display:flex;
+            gap:20px;
+            padding:20px;
+            
+        }
+    }
+}
